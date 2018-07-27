@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=VT323|Vollkorn:400,900");
+
+@mixin robot {
+  font-family: "VT323", monospace;
+  font-weight: 400;
+}
+
+@mixin serif {
+  font-family: "Vollkorn", serif;
+}
+
+@mixin normal {
+  font-weight: 400;
+}
+
+@mixin bold {
+  font-weight: 900;
+}
+
+h1,
+.h1 {
+  margin: 2rem 0;
+  font-size: 4rem;
+  font-weight: normal;
+}

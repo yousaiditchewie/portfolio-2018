@@ -1,0 +1,14 @@
+.RPS {
+  display: block;
+  padding: 4rem 2rem;
+  width: 100vw;
+  height: 100vh;
+  background: $dark-gray;
+  color: $neon;
+  text-align: center;
+  @include robot;
+
+  &-intro {
+    font-size: rem-calc(20);
+  }
+}

@@ -1,0 +1,26 @@
+// makeshift reset
+html {
+  font-size: 16px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  color: $black;
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: $black;
+  transition: color 0.25s ease-out;
+  &:hover {
+    color: $white;
+  }
+}
+#root {
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0;
+}

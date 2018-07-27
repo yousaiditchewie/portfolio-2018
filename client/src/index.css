@@ -1,11 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=VT323|Vollkorn:400,900");
+h1,
+.h1 {
+  margin: 2rem 0;
+  font-size: 4rem;
+  font-weight: normal; }
+
+html {
+  font-size: 16px; }
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif; }
+  font-size: 1rem;
+  color: #000; }
 
-.example-appear {
-  opacity: 0.01; }
+* {
+  box-sizing: border-box; }
 
-.example-appear.example-appear-active {
-  opacity: 1;
-  transition: opacity 1s ease-in; }
+a {
+  text-decoration: none;
+  color: #000;
+  transition: color 0.25s ease-out; }
+  a:hover {
+    color: #e0e0e0; }
+
+#root {
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0; }
+
+.RPS {
+  display: block;
+  padding: 4rem 2rem;
+  width: 100vw;
+  height: 100vh;
+  background: #202520;
+  color: #00ff21;
+  text-align: center;
+  font-family: "VT323", monospace;
+  font-weight: 400; }
+  .RPS-intro {
+    font-size: 1.25rem; }
