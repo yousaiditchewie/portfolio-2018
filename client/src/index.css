@@ -2,7 +2,7 @@
 h1,
 .h1 {
   margin: 2rem 0;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: normal; }
 
 html {
@@ -31,7 +31,7 @@ a {
 
 .RPS {
   display: block;
-  padding: 4rem 2rem;
+  padding: 1rem 2rem;
   width: 100vw;
   height: 100vh;
   background: #202520;
@@ -41,3 +41,11 @@ a {
   font-weight: 400; }
   .RPS-intro {
     font-size: 1.25rem; }
+
+.MessageBoard {
+  max-width: 25rem;
+  padding: 1.5rem 2rem;
+  margin: 0 auto;
+  background: #505550;
+  font-size: 1.5rem;
+  box-shadow: 1px 4px 8px rgba(20, 20, 20, 0.75); }

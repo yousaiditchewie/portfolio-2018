@@ -8,7 +8,8 @@ import GameBoard from "./GameBoard";
 
 export default class RPS extends Component {
   state = {
-    key: 1
+    key: 1,
+    message: "Play a Hand..."
   };
   componentDidMount() {
     setInterval(() => {
@@ -25,9 +26,9 @@ export default class RPS extends Component {
         <h1 className="RPS-heading">Welcome to my&nbsp;website</h1>
         <p className="RPS-intro">
           You look like a worthy opponent.<br />Beat me 2 out of 3 in a game of
-          Rock, Paper, Scissors, and I'll let you see the rest of my site.
+          Rock Paper Scissors, and I'll let you see the rest of my site.
         </p>
-        <MessageBoard />
+        <MessageBoard message={this.state.message} />
         <GameBoard />
         <button className="button">Reset</button>
         <Link to="/home" className="button">
