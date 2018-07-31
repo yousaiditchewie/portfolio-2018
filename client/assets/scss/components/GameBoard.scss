@@ -1,0 +1,9 @@
+.GameBoard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: rem-calc(800);
+  margin: 0 auto 2rem auto;
+  border: rem-calc(2) solid $neon;
+  background-color: $black;
+}

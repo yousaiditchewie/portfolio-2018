@@ -1,0 +1,14 @@
+.Player {
+  width: 50%;
+  padding: 1rem;
+  text-align: center;
+
+  &:last-of-type {
+    border-left: 2px solid $neon;
+  }
+
+  img {
+    max-width: 80%;
+    height: auto;
+  }
+}
